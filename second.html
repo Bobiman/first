@@ -1,9 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>Second Project</title>
+    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
   </head>
-  <body></body>
+
+  <body>
+    <header>
+      <h1>Second page!</h1>
+    </header>
+    <main>
+      <form>
+        <label for="name">Name </label>
+        <input type="text" id="name" name="firstname" /><br />
+        <label for="surname">Surname </label>
+        <input type="text" id="surname" name="lastname" /><br />
+        <label>Date of birth </label>
+        <input type="date" /><br />
+        <label>Adress </label>
+        <input type="text" /><br />
+        <label for="email">Email </label>
+        <input type="email" id="email" /><br />
+        <label>Phone Number </label>
+        <input type="name" /><br />
+        <label>Password </label>
+        <input type="password" />
+      </form>
+    </main>
+    <footer>
+      <p>
+        <a href="index.html"
+          ><img src="./img/larw.png" width="40" height="50"
+        /></a>
+      </p>
+    </footer>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>
