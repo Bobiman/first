@@ -6,10 +6,6 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-div {
-  font-size: x-large;
-}
-
 h1 {
   background-color: red;
   color: black;
@@ -17,6 +13,34 @@ h1 {
   border-width: 5px;
 }
 
+main.h2color h2 {
+  color: cyan;
+}
+
+#maininfo p {
+  font-weight: bold;
+  font-size: large;
+  font-style: italic;
+}
+
 li {
   font-weight: bold;
+  font-style: italic;
+}
+
+.img1 {
+  border-radius: 47%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: red;
+}
+.img2 {
+  border-radius: 50%;
+}
+.img3 {
+  border-radius: 20%;
+}
+
+#right-arrow {
+  text-align: right;
 }
