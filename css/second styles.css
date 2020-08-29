@@ -3,14 +3,78 @@ body {
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: bold;
   text-align: center;
 }
 
+header {
+  text-align: center;
+  position: relative;
+  top: 10px;
+  width: 600px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+main {
+  box-sizing: border-box;
+  border: 3px solid black;
+  width: 300px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+footer {
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  margin-bottom: 20px;
+}
+
 .h1 {
-  background-color: red;
-  color: black;
+  position: sticky;
+  top: 10px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.651);
+  color: rgba(194, 194, 49, 0.678);
+  border: 10px solid black;
+  border-left-style: double;
+  border-left-color: red;
+  border-right-color: red;
+  border-right-style: double;
+  padding: 10px;
+}
+
+#submit {
+  display: block;
+  background-color: rgba(194, 194, 49, 0.678);
+  border: 2px solid;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+input {
+  background-color: rgba(194, 194, 49, 0.678);
+  border: 2px solid;
+}
+
+.done {
+  background-color: black;
+  box-sizing: border-box;
+  border: 15px solid red;
+  border-style: double;
+  border-top-style: solid;
+  border-top-color: black;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  padding: 5px;
 }
 
 #left-arrow {
   text-align: left;
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
 }

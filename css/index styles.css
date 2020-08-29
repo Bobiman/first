@@ -6,26 +6,100 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-h1 {
-  background-color: red;
-  color: black;
-  border-style: solid;
-  border-width: 5px;
+header {
+  text-align: center;
+  position: relative;
+  top: 10px;
+  width: 600px;
+  padding: 10px;
+  margin: 0 auto;
 }
 
-main.h2color h2 {
-  color: cyan;
+h1 {
+  position: sticky;
+  top: 10px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.651);
+  color: rgba(194, 194, 49, 0.678);
+  border: 10px solid black;
+  border-left-style: double;
+  border-left-color: red;
+  border-right-color: red;
+  border-right-style: double;
+  padding: 10px;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 10px;
 }
 
 #maininfo p {
+  box-sizing: border-box;
   font-weight: bold;
   font-size: large;
   font-style: italic;
 }
 
+ol {
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  width: 400px;
+  padding: 5px;
+  margin: 0 auto;
+  top: 10px;
+}
+
+footer {
+  text-align: center;
+  position: relative;
+  top: 10px;
+  margin-bottom: 20px;
+}
+
+#footerinfo p {
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: large;
+  font-style: italic;
+  width: 400px;
+  margin: 0 auto;
+}
+
+ul {
+  font-size: x-small;
+  font-style: normal;
+  position: fixed;
+  box-sizing: border-box;
+  bottom: 0px;
+  left: 0px;
+}
+
 li {
+  box-sizing: border-box;
   font-weight: bold;
   font-style: italic;
+}
+
+span {
+  text-align: left;
+  box-sizing: border-box;
+  margin: 5px;
+  position: sticky;
+  bottom: 0px;
+  left: 0px;
+}
+
+span {
+  text-align: left;
+  box-sizing: border-box;
+  margin: 5px;
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
 }
 
 .img1 {
@@ -43,4 +117,16 @@ li {
 
 #right-arrow {
   text-align: right;
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+}
+
+h2 {
+  text-decoration-line: underline;
+  top: 5px;
+  color: cyan;
+  position: relative;
+  box-sizing: border-box;
+  margin: 10px;
 }
