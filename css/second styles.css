@@ -38,16 +38,20 @@ footer {
   top: 10px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.651);
-  color: rgb(128, 0, 0);
+  color: rgb(170, 0, 0);
   border: 10px solid black;
-  border-left-style: double;
   border-left-color: rgb(128, 0, 0);
   border-right-color: rgb(128, 0, 0);
-  border-right-style: double;
+  border-radius: 25px;
   padding: 10px;
+}
+#submit:hover {
+  background-color: rgba(95, 0, 0, 0.582);
+  cursor: pointer;
 }
 
 #submit {
+  font-weight: bold;
   display: block;
   background-color: rgb(128, 0, 0);
   border: 5px solid;
@@ -57,8 +61,11 @@ footer {
   margin-top: 5px;
 }
 input {
+  padding: 2px;
+  padding-left: 5px;
   background-color: rgb(128, 0, 0);
   border: 2px solid;
+  border-radius: 20px;
 }
 
 .done {
