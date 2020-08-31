@@ -50,7 +50,8 @@ footer {
 #submit {
   display: block;
   background-color: rgb(128, 0, 0);
-  border: 2px solid;
+  border: 5px solid;
+  border-radius: 20px;
   padding: 5px;
   margin: 0 auto;
   margin-top: 5px;
