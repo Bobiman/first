@@ -38,32 +38,32 @@ footer {
   top: 10px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.651);
-  color: rgba(194, 194, 49, 0.678);
+  color: rgb(128, 0, 0);
   border: 10px solid black;
   border-left-style: double;
-  border-left-color: red;
-  border-right-color: red;
+  border-left-color: rgb(128, 0, 0);
+  border-right-color: rgb(128, 0, 0);
   border-right-style: double;
   padding: 10px;
 }
 
 #submit {
   display: block;
-  background-color: rgba(194, 194, 49, 0.678);
+  background-color: rgb(128, 0, 0);
   border: 2px solid;
   padding: 5px;
   margin: 0 auto;
   margin-top: 5px;
 }
 input {
-  background-color: rgba(194, 194, 49, 0.678);
+  background-color: rgb(128, 0, 0);
   border: 2px solid;
 }
 
 .done {
   background-color: black;
   box-sizing: border-box;
-  border: 15px solid red;
+  border: 15px solid rgb(128, 0, 0);
   border-style: double;
   border-top-style: solid;
   border-top-color: black;

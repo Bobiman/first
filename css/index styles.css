@@ -20,11 +20,11 @@ h1 {
   top: 10px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.651);
-  color: rgba(194, 194, 49, 0.678);
+  color: rgba(255, 255, 255, 0.603);
   border: 10px solid black;
   border-left-style: double;
-  border-left-color: red;
-  border-right-color: red;
+  border-left-color: rgb(128, 0, 0);
+  border-right-color: rgb(128, 0, 0);
   border-right-style: double;
   padding: 10px;
 }
@@ -64,12 +64,12 @@ footer {
   box-sizing: border-box;
   font-weight: bold;
   font-size: large;
-  font-style: italic;
-  width: 400px;
+  width: 700px;
   margin: 0 auto;
 }
 
 ul {
+  list-style: none;
   font-size: x-small;
   font-style: normal;
   position: fixed;
@@ -84,29 +84,11 @@ li {
   font-style: italic;
 }
 
-span {
-  text-align: left;
-  box-sizing: border-box;
-  margin: 5px;
-  position: sticky;
-  bottom: 0px;
-  left: 0px;
-}
-
-span {
-  text-align: left;
-  box-sizing: border-box;
-  margin: 5px;
-  position: fixed;
-  bottom: 0px;
-  left: 10px;
-}
-
 .img1 {
   border-radius: 47%;
   border-style: solid;
   border-width: 10px;
-  border-color: red;
+  border-color: rgb(128, 0, 0);
 }
 .img2 {
   border-radius: 50%;
