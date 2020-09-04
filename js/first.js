@@ -20,6 +20,24 @@ addFunction(2, 5);
 
 console.log("Result: " + result);
 
+// OR(||) AND(&&)
+
+if (result === 7 || firstVariable === "Bobi's Portfolio") {
+  console.log("correct");
+} else {
+  console.log("incorrect");
+}
+
+if (result === 7 && firstVariable === "Hello World") {
+  console.log("correct");
+} else {
+  console.log("incorrect");
+}
+//console.log(typeof firstVariable); --> "string"
+//console.log(typeof result); --> "number"
+
+//console.log(result instanceof number) --> true/false
+
 /* variable o will have similar structure to this one:
 {
     a: 1,
