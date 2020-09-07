@@ -15,7 +15,7 @@ let info = {
 3. mixed content
 */
 let numbers = [1, 2, 3, 4, 5, 6, 7];
-let names = [John, Jack, Robin, Tessa];
+let names = ["John", "Jack", "Robin", "Tessa"];
 
 /* Assign the created object and array to new variables. 
 Then try to change some values inside this newly created complex data structures with this sintax:
@@ -29,7 +29,7 @@ Then try to change some values inside this newly created complex data structures
 */
 
 let NewObject = new Object();
-let NewArray = NewArray();
+let NewArray = new Array();
 
 NewObject = info;
 NewArray = names;
