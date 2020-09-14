@@ -16,7 +16,7 @@ convert the same function to pure function.
 */
 let house = "";
 let houseParts = ["basement", "floor", "attic", "roof"];
-function buildHouse() {
+function buildHouse(house, houseParts) {
   for (part of houseParts) {
     if (part === houseParts[houseParts.length - 1]) {
       house += part;
@@ -25,10 +25,10 @@ function buildHouse() {
     }
   }
 
-  return;
+  return house;
 }
 
-buildHouse();
+buildHouse(house, houseParts);
 
 console.log(house);
 
@@ -39,9 +39,11 @@ let a = ["one", "two", "three"];
 
 function oneTwoThree() {
   let a = [1, 2, 3];
-
   return function () {
-    return a;
+    let a = ["eden", "dva"];
+    return function () {
+      return a;
+    };
   };
 }
 
