@@ -14,3 +14,19 @@ a.shift();
 a.forEach(function () {});
 
 console.log(a);
+
+let menu = "";
+let arr = ["about", "services"];
+let nav = document.getElementById("main-menu");
+
+function myfunk(list) {
+  menu += "<li>" + list + "</li>";
+}
+
+arr.unshift("menu");
+arr.push("contact");
+menu += "<ul>";
+arr.forEach(myfunk);
+menu += "</ul>";
+
+document.getElementById("main-menu").innerHTML = menu;
